@@ -1,2 +1,6 @@
 Check out the following for some website inspiration:
 www.care.org
+
+
+After .grid create a three columned icon section with
+the organizations goals written underneath each icon.

@@ -11,7 +11,7 @@ header {
   margin: auto;
   padding: 0;
   padding-left: 30px;
-  background-color: #00284d;
+  background: linear-gradient(to right, #00284d 31%, #ffffff 90%);
   color: WHITE;
   overflow: hidden;
   border-bottom-width: 3px;
@@ -33,7 +33,7 @@ li {
   font-size: 20px;
 }
 a{
-  color: white;
+  color: #00284d;
   text-decoration: none;
 }
 a:hover{
@@ -45,9 +45,12 @@ img {
 }
 
 .grid{
+  background-color: #00284d;
   display: grid;
+  border-style: none;
   padding: 0;
   margin: 0;
+  grid-gap: 20px;
   height: 1500px;
   width: 100%;
   grid-template-rows: 1fr 1fr 1fr;
@@ -73,7 +76,10 @@ img {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom-style: solid;
-  border-bottom-color: white;
+  border-bottom-color: #00284d;
+}
+#current:hover{
+  border-bottom-color: gray;
 }
 #show1{
   background-image: url('../img/BlackMeetings.jpg');
