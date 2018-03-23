@@ -28,7 +28,8 @@ ul {
 li {
   float: left;
   list-style-type: none;
-  padding: 30px 30px 30px 30px;
+  padding: 0px;
+  margin: 30px 30px 30px 30px;
   font-size: 20px;
 }
 a{
@@ -67,6 +68,12 @@ img {
 }
 .showcasedr{
   background-color: #d9d9d9;
+}
+#current{
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
 }
 #show1{
   background-image: url('../img/BlackMeetings.jpg');
