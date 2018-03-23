@@ -60,17 +60,14 @@ img {
 .showcaser{
   grid-column: 2/span 2;
 }
-.showcasedl{
-  background-color: #d9d9d9;
+.showcasedl, .showcasedr{
+  background-color: #ffffff;
 }
 .showcasel{
   grid-column: 1/span 2;
   background-image: url('../img/BlackMeetings.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
-.showcasedr{
-  background-color: #d9d9d9;
 }
 #current{
   margin-bottom: 20px;
