@@ -31,57 +31,57 @@ li {
   padding: 30px 30px 30px 30px;
   font-size: 20px;
 }
-
+li::hover{
+  color: blue;
+}
 img {
   padding: 0;
   margin: 0;
 }
 
-.main{
+.grid{
+  display: grid;
   padding: 0;
-  padding-bottom:100px;
   margin: 0;
-  height: 100%;
-}
-
-.showcase {
-  background-color: #ffffff;
-  width: auto%;
-  height: 100%;
-}
-
-.showcase1 {
-  float: right;
-  top: -20px;
-  background: url('../img/BlackMeetings.jpg') no-repeat;
-  min-height: 400px;
-  min-width: 600px;
-  width: 70%;
-  background-size: cover;
-  background-position: top center;
-  text-align: center;
-}
-
-.showcase2 {
-  float: left;
-  top: 0px;
-  background: url('../img/BlackMeetings.jpg') no-repeat;
-  min-height: 400px;
-  min-width: 600px;
-  width: 70%;
-  background-size: cover;
-  background-position: top center;
-  text-align: center;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  height: 100px;
+  height: 1500px;
   width: 100%;
-  background-color: gray;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
+.showcaser{
+  grid-column: 2/span 2;
+}
+.showcasedl{
+  background-color: #d9d9d9;
+}
+.showcasel{
+  grid-column: 1/span 2;
+  background-image: url('../img/BlackMeetings.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcasedr{
+  background-color: #d9d9d9;
+}
+#show1{
+  background-image: url('../img/BlackMeetings.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#show2{
+  background-image: url('../img/Speaking.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position:top;
+  width: 100%;
+}
+#show3{
+  background-image: url('../img/Academics.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #logo {
   position: relative;
   height: 100px;
