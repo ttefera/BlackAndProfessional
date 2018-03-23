@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #00213e;
+  background-color: #000000;
   color: BLACK;
   font-family: Impact, sans-serif;
   min-height: 100%;
@@ -45,29 +45,40 @@ img {
 }
 
 .grid{
-  background-color: #00284d;
+  background-color: #ffffff;
   display: grid;
   border-style: none;
   padding: 0;
   margin: 0;
-  grid-gap: 20px;
   height: 1500px;
   width: 100%;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
 }
 
 .showcaser{
   grid-column: 2/span 2;
+  width: 80%;
+  height: 80%;
+  margin: auto;
 }
 .showcasedl, .showcasedr{
   background-color: #ffffff;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  border-style: solid;
+  border-color: #00284d
 }
 .showcasel{
   grid-column: 1/span 2;
   background-image: url('../img/BlackMeetings.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  width: 80%;
+  height: 80%;
+  margin: auto;
 }
 #current{
   margin-bottom: 20px;
@@ -89,7 +100,6 @@ img {
   background-size: cover;
   background-position: center;
   background-position:top;
-  width: 100%;
 }
 #show3{
   background-image: url('../img/Academics.jpg');
