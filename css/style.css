@@ -1,8 +1,8 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #000000;
-  color: BLACK;
+  background-color: #ffffff;
+  color: #00284d;
   font-family: Impact, sans-serif;
   min-height: 100%;
 }
@@ -32,80 +32,133 @@ li {
   margin: 30px 30px 30px 30px;
   font-size: 20px;
 }
-a{
+
+a {
   color: #00284d;
   text-decoration: none;
 }
-a:hover{
+
+a:hover {
   color: gray;
 }
+
 img {
   padding: 0;
   margin: 0;
 }
 
-.grid{
+footer {
+  bottom: 0px;
+  height: 100px;
+  background-color: #00284d;
+  color: white;
+}
+
+.grid {
   background-color: #ffffff;
   display: grid;
   border-style: none;
   padding: 0;
-  margin: 0;
+  margin: auto;
   height: 1500px;
   width: 100%;
+  max-width: 1300px;
+  min-width: 800px;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
 }
 
-.showcaser{
+.showcaser {
   grid-column: 2/span 2;
-  width: 80%;
+  width: 90%;
   height: 80%;
   margin: auto;
+  border-style: solid;
+  border-color: gray;
 }
-.showcasedl, .showcasedr{
+
+.showcasedl, .showcasedr {
   background-color: #ffffff;
   width: 80%;
   height: 80%;
   margin: auto;
   border-style: solid;
-  border-color: #00284d
+  border-color: gray;
 }
-.showcasel{
+
+.showcasel {
   grid-column: 1/span 2;
   background-image: url('../img/BlackMeetings.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 80%;
+  width: 90%;
   height: 80%;
   margin: auto;
+  border-style: solid;
+  border-color: gray;
 }
-#current{
+
+.descriptionl {
+  margin: 0 10px 0 10px;
+}
+
+.descriptionr {
+  text-align: right;
+  margin: 0 10px 0 10px;
+}
+
+.showcasedl p, .showcasedr p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logos {
+  margin: 0 15px 0 0;
+  padding: 0;
+  position: relative;
+  display: inline;
+  float: right;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.logos img {
+  height: 50px;
+  width: 50px;
+}
+
+#current {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom-style: solid;
   border-bottom-color: #00284d;
 }
-#current:hover{
+
+#current:hover {
   border-bottom-color: gray;
 }
-#show1{
+
+#show1 {
   background-image: url('../img/BlackMeetings.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-#show2{
+
+#show2 {
   background-image: url('../img/Speaking.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-position:top;
+  background-position: top;
 }
-#show3{
+
+#show3 {
   background-image: url('../img/Academics.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #logo {
   position: relative;
   height: 100px;
